@@ -1,10 +1,3 @@
-/*
- * i2cslave.h
- *
- *  Created on: May 9, 2015
- *      Author: Olli-Pekka
- */
-
 #ifndef I2CSLAVE_H_
 #define I2CSLAVE_H_
 
@@ -27,7 +20,7 @@ void drive_SDA_high();
 void drive_SDA_low();
 
 int int_SDA();
-char read_slave_byte(int addrMatch);
+char read_slave_byte();
 
 int send_data();
 int receive_data();

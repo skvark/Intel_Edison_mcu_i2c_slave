@@ -1,11 +1,3 @@
-/*
- * i2cslave.c
- *
- *  Created on: May 9, 2015
- *      Author: Olli-Pekka
- */
-
-
 #include "i2cslave.h"
 #include "mcu_api.h"
 
